@@ -1,0 +1,29 @@
+body{
+	margin: 0px;
+	padding:0px;
+}
+header{
+	padding:20px;
+	background: #000000;
+	opacity: 0.4;
+
+}
+main{
+	padding:20px;
+	height:70vh;
+}
+footer{
+	padding:50px;
+	background: #3f5e74;
+	color:white;
+	text-align: center;
+}
+.logo{
+	font-family: montserrat;
+	font-weight: 900;
+
+}
+.logo a{
+	text-decoration: none;
+	color:#fff;
+}
