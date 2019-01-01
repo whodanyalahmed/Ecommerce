@@ -2,18 +2,30 @@ body{
 	margin: 0px;
 	padding:0px;
 }
+.container{
+	width: 1024px;
+	
+}
 header{
-	padding:20px;
+	padding:10px;
 	background: #000000;
-	opacity: 0.4;
+	opacity: 0.7;
 
 }
 main{
-	padding:20px;
+	font-family: sans-serif;
+
+	padding-left:120px;
+	padding:0px;
+	color:#fff;
 	height:70vh;
+	background: #90979c;
+
 }
 footer{
-	padding:50px;
+	font-weight: 100;
+	font-family: montserrat;
+	padding:44px;
 	background: #3f5e74;
 	color:white;
 	text-align: center;
@@ -24,6 +36,52 @@ footer{
 
 }
 .logo a{
+	margin-left:40px;
+	color:#fff;
+}
+ul li a{
+	font-weight: 300;
+	font-family: montserrat;
 	text-decoration: none;
 	color:#fff;
+	transition: 0.9s;
+	opacity: 0.7;
+}
+ul li {
+	padding:10px;
+	display: inline-block;
+}
+ul{
+	margin-top:-80px;
+	float:right;
+	list-style: none;
+}
+ul li a:hover{
+	opacity: 1;
+	background: #000000;
+
+}
+
+
+aside{
+	font-family: montserrat;
+	color:#fff;
+	font-size: 1.2em;
+	text-align:center;
+	width:20%;
+	float:left;
+	padding-top:20px;
+	height:35.5vw;
+	background: #697279;
+	clear:right;
+}
+.wrapper{
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr;
+
+}
+.wrapper div{
+	padding:60px;
+	background: #000000;
+	opacity: 0.3;
 }
